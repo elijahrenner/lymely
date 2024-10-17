@@ -11,7 +11,8 @@
     Your guide to staying ahead of Lyme disease.
     <br />
     <br />
-    <a href="https://github.com/elijahrenner/lymely">View Demo</a> 
+    <a href="https://github.com/elijahrenner/lymely">View Demo</a> |
+    <a href="https://github.com/elijahrenner/lymely/blob/main/Lymely.pdf">Slides</a>
     <br />
     <br />
     <img src="Lymely/Lymely/Resources/Theme/simulator_screenshot_857AEC6D-6391-4335-BE83-A5F54468690E.png" alt="Screenshot" width="100%">
