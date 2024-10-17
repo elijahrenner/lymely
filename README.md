@@ -141,6 +141,13 @@ You can add these libraries to your project using Swift Package Manager or Cocoa
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+- [Hopkins Lyme Tracker](https://www.hopkinslymetracker.org/explorer) - The data used to create the tick map is from Hopkins' Lyme Tracker.
+- [CDC Lyme Disease](https://www.cdc.gov/lyme/about/index.html) - The early Lyme disease symptoms used to educate the GPT-4o model are from the CDC.
+- [Lyme Disease Erythema Migrans Rashes Dataset](https://www.kaggle.com/datasets/sshikamaru/lyme-disease-rashes) - The dataset used to train the rash classification model, courtesy of Edward Zhang at Dartmouth College.
+
 <!-- ATTRIBUTION -->
 ## Attribution
 
