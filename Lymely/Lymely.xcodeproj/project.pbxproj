@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F8201C32CAAED7000865251 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 9F8201C22CAAED7000865251 /* MapboxMaps */; };
+		9F820DCC2CAB477500865251 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9F820DCB2CAB477500865251 /* OpenAISwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F5C0DE22C8FDBBD007BFA30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F5C0DC92C8FDBBC007BFA30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F5C0DD02C8FDBBC007BFA30;
+			remoteInfo = Lymely;
+		};
+		9F5C0DEC2C8FDBBD007BFA30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F5C0DC92C8FDBBC007BFA30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F5C0DD02C8FDBBC007BFA30;
+			remoteInfo = Lymely;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F5C0DD12C8FDBBC007BFA30 /* Lymely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lymely.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5C0DE12C8FDBBD007BFA30 /* LymelyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LymelyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5C0DEB2C8FDBBD007BFA30 /* LymelyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LymelyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9FDA56822CC0A07D00D750A6 /* Exceptions for "Lymely" folder in "Lymely" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9F5C0DD02C8FDBBC007BFA30 /* Lymely */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9F5C0DD32C8FDBBC007BFA30 /* Lymely */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9FDA56822CC0A07D00D750A6 /* Exceptions for "Lymely" folder in "Lymely" target */,
+			);
+			path = Lymely;
+			sourceTree = "<group>";
+		};
+		9F5C0DE42C8FDBBD007BFA30 /* LymelyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LymelyTests;
+			sourceTree = "<group>";
+		};
+		9F5C0DEE2C8FDBBD007BFA30 /* LymelyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LymelyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F5C0DCE2C8FDBBC007BFA30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F820DCC2CAB477500865251 /* OpenAISwift in Frameworks */,
+				9F8201C32CAAED7000865251 /* MapboxMaps in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5C0DDE2C8FDBBD007BFA30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5C0DE82C8FDBBD007BFA30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F5C0DC82C8FDBBC007BFA30 = {
+			isa = PBXGroup;
+			children = (
+				9F5C0DD32C8FDBBC007BFA30 /* Lymely */,
+				9F5C0DE42C8FDBBD007BFA30 /* LymelyTests */,
+				9F5C0DEE2C8FDBBD007BFA30 /* LymelyUITests */,
+				9F5C0DD22C8FDBBC007BFA30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F5C0DD22C8FDBBC007BFA30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F5C0DD12C8FDBBC007BFA30 /* Lymely.app */,
+				9F5C0DE12C8FDBBD007BFA30 /* LymelyTests.xctest */,
+				9F5C0DEB2C8FDBBD007BFA30 /* LymelyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F5C0DD02C8FDBBC007BFA30 /* Lymely */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5C0DF52C8FDBBD007BFA30 /* Build configuration list for PBXNativeTarget "Lymely" */;
+			buildPhases = (
+				9F5C0DCD2C8FDBBC007BFA30 /* Sources */,
+				9F5C0DCE2C8FDBBC007BFA30 /* Frameworks */,
+				9F5C0DCF2C8FDBBC007BFA30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9F5C0DD32C8FDBBC007BFA30 /* Lymely */,
+			);
+			name = Lymely;
+			packageProductDependencies = (
+				9F8201C22CAAED7000865251 /* MapboxMaps */,
+				9F820DCB2CAB477500865251 /* OpenAISwift */,
+			);
+			productName = Lymely;
+			productReference = 9F5C0DD12C8FDBBC007BFA30 /* Lymely.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F5C0DE02C8FDBBD007BFA30 /* LymelyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5C0DF82C8FDBBD007BFA30 /* Build configuration list for PBXNativeTarget "LymelyTests" */;
+			buildPhases = (
+				9F5C0DDD2C8FDBBD007BFA30 /* Sources */,
+				9F5C0DDE2C8FDBBD007BFA30 /* Frameworks */,
+				9F5C0DDF2C8FDBBD007BFA30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F5C0DE32C8FDBBD007BFA30 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9F5C0DE42C8FDBBD007BFA30 /* LymelyTests */,
+			);
+			name = LymelyTests;
+			packageProductDependencies = (
+			);
+			productName = LymelyTests;
+			productReference = 9F5C0DE12C8FDBBD007BFA30 /* LymelyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F5C0DEA2C8FDBBD007BFA30 /* LymelyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5C0DFB2C8FDBBD007BFA30 /* Build configuration list for PBXNativeTarget "LymelyUITests" */;
+			buildPhases = (
+				9F5C0DE72C8FDBBD007BFA30 /* Sources */,
+				9F5C0DE82C8FDBBD007BFA30 /* Frameworks */,
+				9F5C0DE92C8FDBBD007BFA30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F5C0DED2C8FDBBD007BFA30 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9F5C0DEE2C8FDBBD007BFA30 /* LymelyUITests */,
+			);
+			name = LymelyUITests;
+			packageProductDependencies = (
+			);
+			productName = LymelyUITests;
+			productReference = 9F5C0DEB2C8FDBBD007BFA30 /* LymelyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F5C0DC92C8FDBBC007BFA30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9F5C0DD02C8FDBBC007BFA30 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					9F5C0DE02C8FDBBD007BFA30 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 9F5C0DD02C8FDBBC007BFA30;
+					};
+					9F5C0DEA2C8FDBBD007BFA30 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 9F5C0DD02C8FDBBC007BFA30;
+					};
+				};
+			};
+			buildConfigurationList = 9F5C0DCC2C8FDBBC007BFA30 /* Build configuration list for PBXProject "Lymely" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F5C0DC82C8FDBBC007BFA30;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9F8201C12CAAED7000865251 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+				9F820DCA2CAB477500865251 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9F5C0DD22C8FDBBC007BFA30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F5C0DD02C8FDBBC007BFA30 /* Lymely */,
+				9F5C0DE02C8FDBBD007BFA30 /* LymelyTests */,
+				9F5C0DEA2C8FDBBD007BFA30 /* LymelyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F5C0DCF2C8FDBBC007BFA30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5C0DDF2C8FDBBD007BFA30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5C0DE92C8FDBBD007BFA30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F5C0DCD2C8FDBBC007BFA30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5C0DDD2C8FDBBD007BFA30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5C0DE72C8FDBBD007BFA30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F5C0DE32C8FDBBD007BFA30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F5C0DD02C8FDBBC007BFA30 /* Lymely */;
+			targetProxy = 9F5C0DE22C8FDBBD007BFA30 /* PBXContainerItemProxy */;
+		};
+		9F5C0DED2C8FDBBD007BFA30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F5C0DD02C8FDBBC007BFA30 /* Lymely */;
+			targetProxy = 9F5C0DEC2C8FDBBD007BFA30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F5C0DF32C8FDBBD007BFA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F5C0DF42C8FDBBD007BFA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F5C0DF62C8FDBBD007BFA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lymely/Preview Content\"";
+				DEVELOPMENT_TEAM = 63RVLPKKSU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lymely/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to take photos of rashes.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to enhance the map experience.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to determine your location on the lyme disease cases map.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = elijahrenner.Lymely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F5C0DF72C8FDBBD007BFA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lymely/Preview Content\"";
+				DEVELOPMENT_TEAM = 63RVLPKKSU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lymely/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to take photos of rashes.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to enhance the map experience.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to determine your location on the lyme disease cases map.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = elijahrenner.Lymely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F5C0DF92C8FDBBD007BFA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = elijahrenner.LymelyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lymely.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lymely";
+			};
+			name = Debug;
+		};
+		9F5C0DFA2C8FDBBD007BFA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = elijahrenner.LymelyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lymely.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lymely";
+			};
+			name = Release;
+		};
+		9F5C0DFC2C8FDBBD007BFA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = elijahrenner.LymelyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lymely;
+			};
+			name = Debug;
+		};
+		9F5C0DFD2C8FDBBD007BFA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = elijahrenner.LymelyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lymely;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F5C0DCC2C8FDBBC007BFA30 /* Build configuration list for PBXProject "Lymely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5C0DF32C8FDBBD007BFA30 /* Debug */,
+				9F5C0DF42C8FDBBD007BFA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F5C0DF52C8FDBBD007BFA30 /* Build configuration list for PBXNativeTarget "Lymely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5C0DF62C8FDBBD007BFA30 /* Debug */,
+				9F5C0DF72C8FDBBD007BFA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F5C0DF82C8FDBBD007BFA30 /* Build configuration list for PBXNativeTarget "LymelyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5C0DF92C8FDBBD007BFA30 /* Debug */,
+				9F5C0DFA2C8FDBBD007BFA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F5C0DFB2C8FDBBD007BFA30 /* Build configuration list for PBXNativeTarget "LymelyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5C0DFC2C8FDBBD007BFA30 /* Debug */,
+				9F5C0DFD2C8FDBBD007BFA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F8201C12CAAED7000865251 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+		9F820DCA2CAB477500865251 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F8201C22CAAED7000865251 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F8201C12CAAED7000865251 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+		9F820DCB2CAB477500865251 /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F820DCA2CAB477500865251 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9F5C0DC92C8FDBBC007BFA30 /* Project object */;
+}
