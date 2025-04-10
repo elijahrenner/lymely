@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: exporters
+Version: 0.0.1
+Summary: Core ML exporter for Hugging Face Transformers
+Home-page: https://github.com/huggingface/exporters
+Author: The HuggingFace team
+Author-email: matthijs@huggingface.co
+License: Apache
+Requires-Python: >=3.8.0
+License-File: LICENSE
+Requires-Dist: transformers>=4.30.0
+Requires-Dist: coremltools>=7
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
